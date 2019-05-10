@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BadriRepo_Example' do
+  pod 'BadriRepo', :path => '../'
+
+  target 'BadriRepo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
